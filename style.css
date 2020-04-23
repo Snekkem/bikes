@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    position: relative;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-link {
+        font-size: 25px;
+    }
+}
+
+.dot {
+    margin: 0 35px;
+}
+
+.ibg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    
+.ibg img {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-item:nth-child(2) {
+    padding-left: 35px;
+    padding-right: 65px;
+}
+
+.nav-item:nth-child(4) {
+    padding-right: 75px;
+    padding-left: 65px;
+}
+
+.navbar-nav {
+    margin-top: 35px;
+    align-items: center;
+}
+
+.generation {
+    padding: 117px 0 142px 0;
+    text-align: center;
+}
+
+.generation__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 35px 0;
+}
+
+.generation__text {
+    color: #848789;
+    margin: 0;
+    line-height: 1.875;
+}
+
+@media only screen and (max-width: 425px) {
+    .generation__text {
+        text-align: justify;
+    }
+    .generation {
+        padding: 50px 0 50px 0;
+    }
+    .vintage-oliva {
+        padding: 50px 0 50px 0;
+    }
+    .mail {
+        padding: 50px 0 50px 0 !important;
+    }
+}
+
+.vintage-oliva {
+    margin: auto 0;
+    padding: 70px 70px 55px 70px;
+}
+
+.vintage-oliva .generation__img {
+    display: flex;
+    justify-content: center;
+}
+
+.vintage-oliva .generation__title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.vintage-oliva .generation__text {
+    text-align: justify;
+    padding-bottom: 43px;
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.border-btm {
+    display: flex;
+    justify-content: center;
+}
+
+.border-btm > div {
+    width: 50px;
+    border: 1px solid #d7d7d7;
+}
+
+.traingle {
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.vintage-oliva__img {
+    position: relative;
+}
+
+.posts .vintage-oliva {
+    padding: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .vintage-oliva {
+        padding: 70px 40px 55px 40px;
+    }
+}
+
+.burger-settings {
+    background-color: #212121;
+    height: 100vh;
+    width: 100%;
+    transition: all .5s;
+    background-image: none;
+}
+
+.stretch-bike img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.posts {
+    padding-top: 124px;
+    overflow: hidden;
+}
+
+.posts__title {
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.posts__text {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-style: italic;
+    color: #848789;
+    text-align: center;
+    padding-bottom: 105px;
+}
+
+.bicikles-gallery {
+    padding: 0;
+    margin: 0;
+}
+
+.discover-shop {
+    background-color: #282f35;
+    padding: 75px 0;
+}
+
+.discover-shop .btn {
+    font-style: 14px;
+}
+
+.mail {
+    padding: 110px 0;
+}
+
+.mail__text {
+    text-align: center;
+    font-style: italic;
+    color: #848789;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+::placeholder {
+    font-style: italic;
+    font-style: 20px;
+    color: #929292;
+}
+
+#email {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #d3d7d9;
+}
+
+.mail__btn {
+    margin-left: 9px;
+    padding: 20px;
+    color: #fff;
+    background-color: #64c29e;
+    border: 1px solid #64c29e;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    color: #848789;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer__handcrafted {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+   .footer > div > div:nth-child(2) {
+       margin: 0 10px;
+   }
+}
+
+
+
